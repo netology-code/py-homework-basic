@@ -1,6 +1,6 @@
 # Домашнее задание к лекции 3.1 «Работа с разными форматами данных»
 
-Взять из [github-репозитория](https://github.com/netology-code/py-homeworks-new/tree/master/2.4.formats.json.xml/files) все файлы с новостями newsafr.json и newsafr.xml
+Взять из папки 3.1.formats.json.xml файлы с новостями newsafr.json и newsafr.xml
 
 Написать программу, которая будет выводить топ 10 самых часто встречающихся в новостях слов длиннее 6 символов для каждого файла.
 
