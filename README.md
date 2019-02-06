@@ -17,3 +17,5 @@
 3.1. [Работа с разными форматами данных](3.1.formats.json.xml/)  
 3.2. [Работа с библиотекой requests, http-запросы](3.2.http.requests/)  
 3.3. [Работа с классами на примере API VK](3.3.classes.vk/)
+
+[Файлы для домашних заданий](https://github.com/netology-code/py-homework-basic-files)

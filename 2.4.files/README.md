@@ -11,7 +11,7 @@ Kоличество ингредиентов в блюде
 ...
 ```
 
-Пример(файл в папке 2.4.files):
+Пример([файл в папке 2.4.files](https://github.com/netology-code/py-homework-basic-files/tree/master/2.4.files)):
 ```
 Омлет
 3
