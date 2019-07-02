@@ -62,7 +62,7 @@ cook_book = {
     ],
   'Запеченный картофель': [
     {'ingridient_name': 'Картофель', 'quantity': 1, 'measure': 'кг'},
-    {'ingridient_name': 'Помидор', 'quantity': 2, 'measure': 'шт'},
+    {'ingridient_name': 'Чеснок', 'quantity': 3, 'measure': 'зубч'},
     {'ingridient_name': 'Сыр гауда', 'quantity': 100, 'measure': 'г'},
     ]
   }
@@ -83,7 +83,7 @@ get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'
 {
   'Картофель': {'measure': 'кг', 'quantity': 2},
   'Молоко': {'measure': 'мл', 'quantity': 200},
-  'Помидор': {'measure': 'шт', 'quantity': 8},
+  'Помидор': {'measure': 'шт', 'quantity': 4},
   'Сыр гауда': {'measure': 'г', 'quantity': 200},
   'Яйцо': {'measure': 'шт', 'quantity': 4},
   'Чеснок': {'measure': 'зубч', 'quantity': 6}
