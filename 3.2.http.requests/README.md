@@ -14,6 +14,11 @@
 
 Для переводов можно пользоваться [API Yandex.Переводчик](https://tech.yandex.ru/translate/).
 
+## \*Задача №2
+Научиться работать с api [Яндекс.Диска](https://yandex.ru/dev/disk/rest/)
+Написать программу, которая загружает переведенные файлы на Яндекс.Диск. 
+[Документация по загрузке файлов](https://yandex.ru/dev/disk/api/reference/upload-docpage/)
+
 ---
 Домашнее задание сдается ссылкой на репозиторий [BitBucket](https://bitbucket.org/) или [GitHub](https://github.com/)
 
