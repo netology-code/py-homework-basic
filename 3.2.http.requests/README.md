@@ -18,6 +18,7 @@
 Научиться работать с api [Яндекс.Диска](https://yandex.ru/dev/disk/rest/)
 Написать программу, которая загружает переведенные файлы на Яндекс.Диск. 
 [Документация по загрузке файлов](https://yandex.ru/dev/disk/api/reference/upload-docpage/)
+Токен можно получить на [Полигоне](https://yandex.ru/dev/disk/poligon/) кликнув по кнопке "Получить OAuth-токен"
 
 ---
 Домашнее задание сдается ссылкой на репозиторий [BitBucket](https://bitbucket.org/) или [GitHub](https://github.com/)
