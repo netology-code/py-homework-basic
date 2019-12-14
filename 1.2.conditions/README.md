@@ -22,6 +22,10 @@
 Рыбы
 ```
 
+## Задание №4
+К следующей лекции прочитать про циклы [for](https://foxford.ru/wiki/informatika/tsikl-for-v-python) и
+ [while](https://foxford.ru/wiki/informatika/tsikl-while-v-python)
+
 ---
 Инструкция по выполнению домашнего задания:
 
