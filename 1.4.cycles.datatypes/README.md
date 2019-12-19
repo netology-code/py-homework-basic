@@ -17,7 +17,7 @@
 [https://docs.python.org/3/tutorial/inputoutput.html](https://docs.python.org/3/tutorial/inputoutput.html)
 
 ## Задание №0
-Во время обучения вам будут дополнительные файлы для домашних работ.  
+Во время обучения вам будут доступны дополнительные файлы для домашних работ.  
 Всех их вы можете скачать с этого [репозитория](https://github.com/netology-code/py-homework-basic-files).  
 Далее мы будем к ним обращаться по названиям папок.  
 
