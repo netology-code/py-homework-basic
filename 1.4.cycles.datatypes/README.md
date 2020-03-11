@@ -1,46 +1,14 @@
 # Домашнее задание к лекции 1.4 «Циклы. Типы данных. Коллекции данных»
 
-Перед выполнением задания прочитайте короткую статью [про типы данных](https://wombat.org.ua/AByteOfPython/data_structures.html).
+Перед выполнением задания прочитайте короткую статью [про типы данных](https://wombat.org.ua/AByteOfPython/data_structures.html) и 
+и отличную [статью на Хабре](https://habr.com/ru/post/319164/)
 
-Подробно про [списки](https://pythonworld.ru/tipy-dannyx-v-python/spiski-list-funkcii-i-metody-spiskov.html)
-
-Подробно про [кортежи](https://pythonworld.ru/tipy-dannyx-v-python/kortezhi-tuple.html)
-
-Подробно про [множества](https://pythonworld.ru/tipy-dannyx-v-python/mnozhestva-set-i-frozenset.html)
-
-Подробно про [словари](https://pythonworld.ru/tipy-dannyx-v-python/slovari-dict-funkcii-i-metody-slovarej.html)
-
-Используйте форматированный вывод (при помощи % или .format) при вызове print в домашней работе. В качестве подсказок можно использовать документацию:
-
-[https://pyformat.info/](https://pyformat.info/)
-
-[https://docs.python.org/3/tutorial/inputoutput.html](https://docs.python.org/3/tutorial/inputoutput.html)
 
 ## Задание №0
-Во время обучения вам будут доступны дополнительные файлы для домашних работ.
-Всех их вы можете скачать с этого [репозитория](https://github.com/netology-code/py-homework-basic-files).  
-Далее мы будем к ним обращаться по названиям папок.  
-- Эти файлы нужно склонировать к себе на компьютер.
-- Задание написано в комментариях в файле. Этот файл нужно дополнить своим кодом.
+Список упражнений доступен в соседнем [файле](/datatypes_cycles_2.ipynb)
 
 
-## Задача №1. Понимание типов данных.
-   * Придумайте по одному примеру использования каждого типа данных: list, tuple, set, dictionary. Например, при помощи словаря мы можем не только делать быстрый поиск квартир (как в лекции), но и хранить "записную книжку":
-```
-contact = {
-            'name': 'Елена Никитина',
-            'mobile_phone': '+7**********',
-            'organization': 'Нетология',
-            'courses': 1
-            }
-```
-Пример нужно оформить на repl.it.
-
-## Задача №2. Развитие навыков программирования.
-Вы уже хорошо знакомы с циклами и условиями. Пользуясь знаниями, научитесь отображать различную информацию из массива данных по квартирам и попробуйте поработать с множествами и словарями. Задание с файлами в папке в 1.4.cycles.datatypes. 
-Потренируйтесь проверять, какой тип у вас получается, функцией `type()`.
-
-## Задача №3
+## Задача №1
 Для подготовки к следующей лекции прочитайте про [функции](https://foxford.ru/wiki/informatika/funktsii-v-python)
 
 ---
