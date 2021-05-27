@@ -1,7 +1,7 @@
-# К домашнему заданию к лекции 1.1 «Python. Знакомство с консолью»
-# Task1 - link for hackerrank - https://www.hackerrank.com/eshmargunov
+# К лекции 1.1 «Python. Знакомство с консолью»
+### Task1 - link for hackerrank - https://www.hackerrank.com/eshmargunov
 
-# Task2
+### Task2
 side_square = int(input('Введите размер стороны квадрата:'))
 perimeter_square = 4 * side_square
 area_square = side_square ** 2
@@ -16,7 +16,7 @@ area_rectangle = length_rectangle * width_rectangle
 print('Периметр', perimeter_rectangle)
 print('Площадь', area_rectangle)
 
-# Task3
+### Task3
 salary = int(input('Введите заработную плату в месяц: '))
 percent_mortgage = int(input('Введите, какой процент(%) уходит на ипотеку:'))
 percent_life = int(input('Введите, какой процент(%) уходит на жизнь:'))
