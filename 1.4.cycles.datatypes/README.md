@@ -1,6 +1,6 @@
 # K лекции 1.4 «Циклы. Типы данных. Коллекции данных»
 
-# Task 1
+### Task 1
 
 ```
 geo_logs = [
@@ -22,7 +22,7 @@ for visit in geo_logs:
         print(visit)
 ```
 
-# Task 2
+### Task 2
 ```
 ids = {'user1': [213, 213, 213, 15, 213],
        'user2': [54, 54, 119, 119, 119],
@@ -33,7 +33,7 @@ for geo_ids in ids.values():
 print(list(my_set))
 ```
 
-# Task 3
+### Task 3
 ```
 queries = [
     'смотреть сериалы онлайн',
@@ -53,14 +53,14 @@ for word in result.items():
     print(f'Запросов с {word[0]} словами(словом) -  {round((word[1] * 100 / len(queries)), 2)}%')
 ```
 
-# Task 4
+### Task 4
 ```
 stats = {'facebook': 55, 'yandex': 120, 'vk': 115, 'google': 99, 'email': 42, 'ok': 98}
 new_stats = sorted(stats.items(), key=lambda x: x[1], reverse=True)
 print(new_stats[0][0])
 ```
 
-# Task 5
+### Task 5
 ```
 lst = ['2018-01-01', 'yandex', 'cpc', 100]
 lst = list(reversed(lst))
