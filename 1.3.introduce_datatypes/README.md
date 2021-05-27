@@ -1,6 +1,7 @@
 # K лекции 1.3 «Введение в типы данных и циклы»
 
 ### Task 1
+```
 boys = ['Peter', 'Alex', 'John', 'Arthur', 'Richard']
 girls = ['Kate', 'Liza', 'Kira', 'Emma', 'Trisha']
 if len(boys) != len(girls):
@@ -9,9 +10,10 @@ pairs = zip(sorted(boys), sorted(girls))
 print('Идеальные пары: ')
 for boy, girl in pairs:
     print(f'{boy} и {girl}')
+    ```
 
 ### Task 2
-
+```
 cook_book = [
     ['салат',
      [
@@ -53,3 +55,4 @@ for dish, ingredients in cook_book:
         ingredient_measure = ingredient[2]
         print(f'{ingredient_name}, {ingredient_count}{ingredient_measure}')
     print()
+```
