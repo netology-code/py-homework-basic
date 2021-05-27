@@ -14,8 +14,8 @@ for boy, girl in pairs:
 
 ### Task 2
 
-```
-cook_book = [
+
+```cook_book = [
     ['салат',
      [
          ['картофель', 100, 'гр.'],
