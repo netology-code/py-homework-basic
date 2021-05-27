@@ -10,7 +10,8 @@ pairs = zip(sorted(boys), sorted(girls))
 print('Идеальные пары: ')
 for boy, girl in pairs:
     print(f'{boy} и {girl}')
-    ```
+ 
+ ```
 
 ### Task 2
 
