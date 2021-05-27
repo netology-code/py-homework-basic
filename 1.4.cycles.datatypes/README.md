@@ -1,26 +1,72 @@
-# Домашнее задание к лекции 1.4 «Циклы. Типы данных. Коллекции данных»
+# K лекции 1.4 «Циклы. Типы данных. Коллекции данных»
 
-Перед выполнением задания прочитайте короткую статью [про типы данных](https://wombat.org.ua/AByteOfPython/data_structures.html) и 
-и отличную [статью на Хабре](https://habr.com/ru/post/319164/)
+# Task 1
 
+```
+geo_logs = [
+    {'visit1': ['Москва', 'Россия']},
+    {'visit2': ['Дели', 'Индия']},
+    {'visit3': ['Владимир', 'Россия']},
+    {'visit4': ['Лиссабон', 'Португалия']},
+    {'visit5': ['Париж', 'Франция']},
+    {'visit6': ['Лиссабон', 'Португалия']},
+    {'visit7': ['Тула', 'Россия']},
+    {'visit8': ['Тула', 'Россия']},
+    {'visit9': ['Курск', 'Россия']},
+    {'visit10': ['Архангельск', 'Россия']}
+]
 
-## Задание №0
-Список упражнений доступен в соседнем [файле](/1.4.cycles.datatypes/datatypes_cycles_2.ipynb)
+for visit in geo_logs:
+    value = list(visit.values())[0][1]
+    if value == 'Россия':
+        print(visit)
+```
 
+# Task 2
+```
+ids = {'user1': [213, 213, 213, 15, 213],
+       'user2': [54, 54, 119, 119, 119],
+       'user3': [213, 98, 98, 35]}
+my_set = set()
+for geo_ids in ids.values():
+    my_set |= set(geo_ids)
+print(list(my_set))
+```
 
-## Задача №1
-Для подготовки к следующей лекции прочитайте про [функции](https://foxford.ru/wiki/informatika/funktsii-v-python)
+# Task 3
+```
+queries = [
+    'смотреть сериалы онлайн',
+    'новости спорта',
+    'афиша кино',
+    'курс доллара',
+    'сериалы этим летом',
+    'курс по питону',
+    'сериалы про спорт',
+    'нетология'
+]
+number_words = [len(query.split()) for query in queries]
+result = dict.fromkeys(set(number_words), 0)
+for count_word in result:
+    result[count_word] = number_words.count(count_word)
+for word in result.items():
+    print(f'Запросов с {word[0]} словами(словом) -  {round((word[1] * 100 / len(queries)), 2)}%')
+```
 
----
-Инструкция по выполнению домашнего задания:
+# Task 4
+```
+stats = {'facebook': 55, 'yandex': 120, 'vk': 115, 'google': 99, 'email': 42, 'ok': 98}
+new_stats = sorted(stats.items(), key=lambda x: x[1], reverse=True)
+print(new_stats[0][0])
+```
 
-1. Зарегистрируйтесь на сайте [Repl.IT](https://repl.it/).
-2. Перейдите в раздел **my repls**.
-3. Нажмите кнопку **Start coding now!**, если приступаете впервые, или **New Repl**, если у вас уже есть работы.
-4. В списке языков выберите Python.
-5. Код пишите в левой части окна.
-6. Посмотреть результат выполнения файла можно, нажав на кнопку **Run**. Результат появится в правой части окна.
-7. После окончания работы нажмите кнопку **Share** и скопируйте ссылку из поля *Share link*.
-8. В личном кабинете на сайте [netology.ru](http://netology.ru/) в поле комментария к домашней работе вставьте скопированную ссылку и отправьте работу на проверку.
+# Task 5
+```
+lst = ['2018-01-01', 'yandex', 'cpc', 100]
+lst = list(reversed(lst))
+new_dict = lst[0]
+for e in lst[1:]:
+    new_dict = {e: new_dict}
 
-*Никаких файлов прикреплять не нужно.*
+print(new_dict)
+```
