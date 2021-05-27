@@ -13,6 +13,7 @@ for boy, girl in pairs:
     ```
 
 ### Task 2
+
 ```
 cook_book = [
     ['салат',
