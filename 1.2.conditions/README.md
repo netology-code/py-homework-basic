@@ -60,4 +60,4 @@ elif (month == 'февраль' and date >= 19) or (month == 'март' and date
 else:
     print('Знак зодиака не найден')
     
-    ```
+```
