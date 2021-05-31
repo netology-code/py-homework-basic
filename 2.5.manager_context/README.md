@@ -1,22 +1,40 @@
  # Домашнее задание к лекции 2.5 «Менеджер контекста»
 
-## Задача №1
-Необходимо реализовать менеджер контекста, печатающий на экран:
-1. Время запуска кода в менеджере контекста;
-2. Время окончания работы кода;
-3. Сколько было потрачено времени на выполнение кода.
+### Task 1
+```
+import json
+import collections
+from pprint import pprint
+import xml.etree.ElementTree as ET
 
-## Задача №2
-Придумать и написать программу, использующая менеджер контекста из задания 1.
-Если придумать не получиться, использовать программу из предыдущих домашних работ.
 
-## Задача №3
-Для подготовки к следующей лекции прочитайте про форматы данных json, xml, csv.
+def read_json(file_path, len_word=6, top_words=10):
+   with open(file_path, 'r', encoding='utf-8') as news_file:
+       news = json.load(news_file)
+       description_words = []
+       for item in news['rss']['channel']['items']:
+           description = [word for word in item['description'].split(' ') if len(word) > len_word]
+           description_words.extend(description)
+       counter_words = collections.Counter(description_words)
+       pprint(counter_words.most_common(top_words))
+```
 
----
-Домашнее задание сдается ссылкой на репозиторий [BitBucket](https://bitbucket.org/) или [GitHub](https://github.com/)
+### Task 2
+def read_xml(file, len_word=6, top_words=10):
+   tree = ET.parse(file)
+   root = tree.getroot()
+   xml_items = root.findall('channel/item')
+   description_words = []
+   descriptions = [item.find('description').text.split() for item in xml_items]
+   for description in descriptions:
+       description = [word for word in description if len(word) > len_word]
+       description_words.extend(description)
+   counter_words = collections.Counter(description_words)
+   pprint(counter_words.most_common(top_words))
 
-Не сможем проверить или помочь, если вы пришлете:
-* архивы;
-* скриншоты кода;
-* теоретический рассказ о возникших проблемах.
+
+if __name__ == '__main__':
+   read_json('newsafr.json')
+   print('------')
+   read_xml('newsafr.xml')
+
