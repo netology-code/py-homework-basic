@@ -20,6 +20,7 @@ def read_json(file_path, len_word=6, top_words=10):
 ```
 
 ### Task 2
+```
 def read_xml(file, len_word=6, top_words=10):
    tree = ET.parse(file)
    root = tree.getroot()
@@ -37,4 +38,4 @@ if __name__ == '__main__':
    read_json('newsafr.json')
    print('------')
    read_xml('newsafr.xml')
-
+```
