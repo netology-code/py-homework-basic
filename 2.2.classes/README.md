@@ -104,7 +104,7 @@ class Goat:
         print('Вы подоили', self.name)
 ```
 
-### Task 2
+### Task 3
 ```
 grey_goose = Goose('Серый', 15)
 white_goose = Goose('Белый', 12)
